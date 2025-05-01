@@ -1,4 +1,4 @@
-name: Docker-github-action
+name: ip-viewer-app
 
 on:
   schedule:
@@ -11,7 +11,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: dipakrasal2009/github-action-docker
+  IMAGE_NAME: dipakrasal2009/ip-viewer-app
 
 jobs:
   build:
