@@ -1,3 +1,5 @@
+#this is the ip viewer application api backend file
+
 from flask import Flask, render_template, jsonify
 import socket
 import requests
