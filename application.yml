@@ -11,7 +11,7 @@ spec:
     path: menifest
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: myapplication
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
