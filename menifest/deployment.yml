@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ip-app
-          image: dipakrasal2009/ip-view:latest
+          image: dipakrasal2009/ip-viewer-app:55c28b3
           ports:
             - containerPort: 80
 
