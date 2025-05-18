@@ -10,6 +10,7 @@ def index():
 
 @app.route('/api/info')
 def get_info():
+    print("run successfully.....")
     pod_ip = socket.gethostbyname(socket.gethostname())
     public_ip = requests.get("https://api.ipify.org").text
     return jsonify({
